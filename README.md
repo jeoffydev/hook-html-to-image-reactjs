@@ -1,6 +1,6 @@
 # html-to-image
 
-> ReactJs Htmo to image NPM
+> custom hook ReactJs HTML to image NPM
 
 [![NPM](https://img.shields.io/npm/v/html-to-image.svg)](https://www.npmjs.com/package/html-to-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,15 +15,19 @@ npm install --save html-to-image
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'html-to-image'
+import useHtmlToImage from "./Hooks/useHtmlToImage";
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
+    const [htmlToImageStatus, setDownloadImage] = useHtmlToImage();
+    const id = 'elemID';
+
+    return (
+        <>
+            { htmlToImageStatus ? 'Downloading...' : ''  }
+            <div id={id} style={{width: '200px', textAlign:'center', color:'black', backgroundColor: '#e5e5e5', padding: '20px'}}><strong>Elements new</strong></div>
+            <button onClick={()=>setDownloadImage(id)} > Download Screenshot </button>
+        </>
+    );
 }
 ```
 
