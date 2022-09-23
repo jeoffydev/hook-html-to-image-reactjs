@@ -10,6 +10,10 @@
 npm install --save jeoffydev-html-to-image
 ```
 
+## node version
+
+version 16+
+
 ## Usage
 
 ```tsx
