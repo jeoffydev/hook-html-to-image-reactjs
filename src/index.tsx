@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import   {useCallback, useState} from 'react';
 import html2canvas from "html2canvas";
 
 export const useHtmlToImage = () => {
