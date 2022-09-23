@@ -1,4 +1,4 @@
-# html-to-image
+# jeoffydev-html-to-image
 
 > custom hook ReactJs HTML to image NPM
 
