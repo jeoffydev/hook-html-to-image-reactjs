@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save html-to-image
+npm install --save jeoffydev-html-to-image
 ```
 
 ## Usage
@@ -31,6 +31,10 @@ const Example = () => {
     );
 }
 ```
+
+## html2canvas
+
+This package use html2canvas to generate image
 
 ## License
 
