@@ -15,12 +15,13 @@ npm install --save html-to-image
 ```tsx
 import * as React from 'react'
 
-import useHtmlToImage from "./Hooks/useHtmlToImage";
+import useHtmlToImage from "useHtmlToImage";
 
 const Example = () => {
     const [htmlToImageStatus, setDownloadImage] = useHtmlToImage();
+    //Get the ID element of your html
     const id = 'elemID';
-
+    
     return (
         <>
             { htmlToImageStatus ? 'Downloading...' : ''  }
