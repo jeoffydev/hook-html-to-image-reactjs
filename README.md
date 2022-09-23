@@ -10,10 +10,6 @@
 npm install --save jeoffydev-html-to-image
 ```
 
-## node version
-
-version 16+
-
 ## Usage
 
 ```tsx
@@ -35,15 +31,19 @@ const Example = () => {
     );
 }
 ```
+## node version
+
+version 16+
+
+## keywords
+
+Keywords are jeoffydev, html-to-image
 
 ## html2canvas
 
-This package use html2canvas to generate image
+This package uses html2canvas to generate image
 
 ## License
 
 MIT © [https://github.com/jeoffydev](https://github.com/https://github.com/jeoffydev)
-
----
-
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).
+ 
