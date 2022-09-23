@@ -1,6 +1,6 @@
 # jeoffydev-html-to-image
 
-> custom hook ReactJs HTML to image NPM
+> Custom  ReactJs hook- HTML to image NPM
 
 [![NPM](https://img.shields.io/npm/v/html-to-image.svg)](https://www.npmjs.com/package/html-to-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
