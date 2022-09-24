@@ -9,6 +9,12 @@
 ```bash
 npm install --save jeoffydev-html-to-image
 ```
+## if error occured on installation please run config set run legacy-peer-deps below
+
+```
+npm config set legacy-peer-deps true
+npm install --save jeoffydev-html-to-image
+```
 
 ## Demo
 
@@ -19,7 +25,7 @@ npm install --save jeoffydev-html-to-image
 ```tsx
 import * as React from 'react'
 
-import useHtmlToImage from "useHtmlToImage";
+import { useHtmlToImage } from "jeoffydev-html-to-image";
 
 const Example = () => {
     const [htmlToImageStatus, setDownloadImage] = useHtmlToImage();

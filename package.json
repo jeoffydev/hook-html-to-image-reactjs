@@ -1,6 +1,6 @@
 {
   "name": "jeoffydev-html-to-image",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ReactJs HTML to image NPM using html2canvas",
   "author": "https://github.com/jeoffydev",
   "license": "MIT",
