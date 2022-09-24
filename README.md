@@ -10,6 +10,10 @@
 npm install --save jeoffydev-html-to-image
 ```
 
+## Demo
+
+[https://codesandbox.io/s/tender-shaw-2f2zue?file=/src/App.tsx](https://codesandbox.io/s/tender-shaw-2f2zue?file=/src/App.tsx)
+
 ## Usage
 
 ```tsx
@@ -45,5 +49,5 @@ This package uses html2canvas to generate image
 
 ## License
 
-MIT © [https://github.com/jeoffydev](https://github.com/https://github.com/jeoffydev)
+MIT © [https://github.com/jeoffydev](https://github.com/jeoffydev)
  
